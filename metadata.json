@@ -1,0 +1,7 @@
+{
+  "name": "Harry's Chicken | Best Chicken Soup in Ludhiana",
+  "description": "Artisanal slow-simmered golden chicken soup, heritage bone broths, and immunity extracts in Ludhiana, Punjab. Near Samrala Chowk & Kdeep Hospital. Order or call 086994 36000.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
