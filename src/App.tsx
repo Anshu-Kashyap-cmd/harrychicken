@@ -4,6 +4,7 @@ import { SteamPartingHero } from './components/SteamPartingHero';
 import { LiquidDivider } from './components/LiquidDivider';
 import { AboutSection } from './components/AboutSection';
 import { ServicesSection } from './components/ServicesSection';
+import { PriceCalculatorSection } from './components/PriceCalculatorSection';
 import { WhyChooseUs } from './components/WhyChooseUs';
 import { TestimonialsSection } from './components/TestimonialsSection';
 import { ContactSection } from './components/ContactSection';
@@ -85,7 +86,13 @@ export default function App() {
         {/* Liquid-Ripple SVG Divider */}
         <LiquidDivider variant="amber" />
 
-        {/* Section 4: Why Choose Us & Call to Action Banner */}
+        {/* Section 4: Dedicated Interactive Price & Order Calculator */}
+        <PriceCalculatorSection />
+
+        {/* Liquid-Ripple SVG Divider */}
+        <LiquidDivider variant="subtle" flip />
+
+        {/* Section 5: Why Choose Us & Call to Action Banner */}
         <WhyChooseUs onOpenOrderModal={handleOpenGeneralOrderModal} />
 
         {/* Liquid-Ripple SVG Divider */}

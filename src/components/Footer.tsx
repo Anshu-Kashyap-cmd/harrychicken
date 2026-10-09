@@ -62,6 +62,14 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLegal, onNavigate }) => {
               </li>
               <li>
                 <button
+                  onClick={() => onNavigate('calculator')}
+                  className="hover:text-amber-300 transition-colors"
+                >
+                  Price & Order Calculator
+                </button>
+              </li>
+              <li>
+                <button
                   onClick={() => onNavigate('why-us')}
                   className="hover:text-amber-300 transition-colors"
                 >
